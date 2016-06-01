@@ -1,3 +1,5 @@
+#dataset contains customerID, itemID, amountspent separated by a delimiter ','
+
 from mrjob.job import MRJob
 
 class MRMoneyspent(MRJob):
