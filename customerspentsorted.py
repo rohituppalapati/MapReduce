@@ -1,3 +1,6 @@
+#dataset contains customerID, itemID, amountspent separated by a delimiter ','
+#using multi step MapR to find the highest spending customer
+
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 
